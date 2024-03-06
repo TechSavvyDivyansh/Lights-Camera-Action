@@ -1,0 +1,68 @@
+.time
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 1400px;
+    height: 570px;
+    justify-content: space-between;
+}
+
+.time-left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-left h2
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.time-left h2:hover
+{
+    color: red;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.time-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.time-right img
+{
+    width: 500px;
+}
+
+.time-right button{
+    transform: translateY(180px);
+    background-color: rgb(90, 11, 169);
+}
+
+.time-right button:hover
+{
+    background-color: rgb(116, 45, 186);
+}
+
+.time-right button:active
+{
+    background-color: rgb(90, 11, 169);
+}
+
+.time i
+{
+    font-size: 2em;
+    transform: translateY(-360px);
+    cursor: pointer;
+}

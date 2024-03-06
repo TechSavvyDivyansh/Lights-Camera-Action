@@ -1,0 +1,48 @@
+.banner
+{
+    background:rgb(19, 19, 19);
+    padding:20px 10px;
+    margin: 40px 0;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 100px rgb(86, 85, 85);
+}
+
+.actors img
+{
+    width: 280px;
+    margin-left: -50px;
+}
+.movietime
+{
+    width: 300px;
+    opacity: 0.5;
+}
+
+.advertise
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topmovie-text1
+{
+    font-size: 34px;
+    font-weight: 700;
+    color: aliceblue;    
+}
+
+.topmovie-text2
+{
+    color: rgb(181, 177, 177);
+}

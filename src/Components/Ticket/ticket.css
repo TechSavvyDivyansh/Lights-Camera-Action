@@ -1,0 +1,108 @@
+.ticketcontainer
+{
+    width: 450px;
+    height: 550px;
+    background-color: rgb(242, 240, 240);
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    transform: translate(470px,-20px);
+}
+
+.ticketcontainer::before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(31, 31, 31);
+    transform: translate(-220px,190px);
+}
+.ticketcontainer::after
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(31, 31, 31);
+    transform: translate(220px,190px);
+}
+
+.ticketcontainer img
+{
+    border-radius: 10px;
+}
+
+.ticket-top
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.ticket-top img 
+{
+    height: 175px;
+}
+
+.movie-info
+{
+    margin-left: 25px;
+    width: 70%;
+}
+
+
+.mticket
+{
+    transform: rotate(-90deg) translate(0px,30px);
+    width: 100px;
+}
+
+.partition
+{
+    transform: translateY(2px);
+    color: rgb(113, 111, 111);
+}
+
+.ticket-centre
+{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 220px;
+    margin-top: 15px;
+    transform: translateY(px);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.seat-list
+{
+    display: flex;
+    gap:10px;
+}
+
+
+.ticket-bottom
+{
+    background-color: rgb(228, 228, 228);
+    width: 110%;
+    height: 50px;
+    padding: 15px;
+    transform: translateY(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Poppins&display=swap');
+
+
+
+.payement
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 1400px;
+    height: 570px;
+}
+
+.totalc
+{
+    color: gray;
+    display: flex;
+    gap: 10px;
+}
+
+.totalamt-cost
+{
+    color: #f3f5f5;
+}
+
+.payementcontainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    transform: translateY(-100px);
+}
+
+.payement i
+{
+    font-size: 2em;
+    transform: translate(-660px,-100px);
+    cursor: pointer;
+    color: white;
+}
+
+.errorred
+{
+    color: red;
+}
+
+
+.circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 90%;
+    z-index: 0;
+}
+
+.circle.c1
+{
+    background: linear-gradient(rgb(86, 3, 182),#f3f5f5);
+    transform: translate(-80px,-70px);
+}
+
+.circle.c2
+{
+    background: linear-gradient(orangered,yellow);
+    transform: translate(580px,300px);
+}
+
+.card
+{
+    width: 700px;
+    height: 410px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.card p
+{
+    transform: translateX(180px);
+    font-family: 'Graduate', serif;
+    letter-spacing: 2px;
+}
+
+.cardcontent
+{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cardno
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.cardinfo
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.cvv
+{
+    width: 100px;
+    text-align: center;
+}
+
+.cardinfo-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardno img
+{
+    width: 80px;
+}
+
+input
+{
+    padding:8px 20px;
+    width: 280px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f3f5f5;
+    font-family: 'Graduate', serif;
+}
+
+.idno
+{
+    font-size: 1.5em;
+    width: 400px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+input::placeholder
+{
+    color: rgb(168, 167, 167);
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logoimg
+{
+    transform: translateX(-150px);
+}
+
+.logo img
+{
+    width: 80px;
+}
+
+
+.proceed
+{
+    cursor: pointer;
+}

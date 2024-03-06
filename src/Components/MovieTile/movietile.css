@@ -1,0 +1,22 @@
+.movieTile
+{
+    width: 300px;
+    cursor: pointer;
+}
+
+.movieTile:hover
+{
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
+.movieTile img
+{
+    width:300px;
+    height: 450px;
+    border-radius: 50px;
+}
+.movieTile p
+{
+    color: gray;
+}

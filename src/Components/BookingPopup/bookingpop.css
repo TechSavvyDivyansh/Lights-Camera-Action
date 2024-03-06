@@ -1,0 +1,67 @@
+.popupcover
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup
+{
+    width: 1400px;
+    height: 870px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.topbar
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar i
+{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.bottombar
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottombar ul
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottombar ul li
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    list-style: none;
+    cursor: default;
+}
+.red
+{
+    background-color: red;
+}
+
+.white
+{
+    background-color: white;
+}

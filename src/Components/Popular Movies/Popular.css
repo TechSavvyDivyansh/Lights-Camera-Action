@@ -1,0 +1,35 @@
+.popular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.popularContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.movie-type
+{
+    width: fit-content;
+    font-size: 30px;
+}
+.movie-type hr
+{
+    border: none; 
+  height: 2px; 
+  background-color: gray; 
+  margin: 10px 0; /* Adjust the margin to control the space above and below the line */
+  width: 100%;
+}
+
+.popularmovie-list
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}

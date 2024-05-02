@@ -1,0 +1,68 @@
+.city
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 1400px;
+    height: 570px;
+    justify-content: space-between;
+}
+
+.city-left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+    justify-content: center;
+}
+
+.city-left h2
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.city-left h2:hover
+{
+    color: orange;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.city-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.city-right button
+{
+    transform: translateY(170px);
+    background-color: rgb(90, 11, 169);
+}
+
+.city-right button:hover
+{
+    background-color: rgb(116, 45, 186);
+}
+
+.city-right button:active
+{
+    background-color: rgb(90, 11, 169);
+}
+
+.city-right img
+{
+    width: 500px;
+}
+
+.city i
+{
+    font-size: 2em;
+    transform: translateY(-360px);
+    cursor: pointer;
+}

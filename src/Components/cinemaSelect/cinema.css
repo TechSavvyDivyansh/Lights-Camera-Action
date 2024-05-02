@@ -1,0 +1,68 @@
+.cinema
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 1400px;
+    height: 570px;
+    justify-content: space-between;
+}
+
+.cinema-left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+    justify-content: center;
+}
+
+.cinema-left h2
+{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+.cinema-left h2:hover
+{
+    color: brown;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.cinema-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cinema-right img
+{
+    width: 500px;
+}
+
+.cinema-right button{
+    transform: translateY(180px);
+    background-color: rgb(90, 11, 169);
+}
+
+.cinema-right button:hover
+{
+    background-color: rgb(116, 45, 186);
+}
+
+.cinema-right button:active
+{
+    background-color: rgb(90, 11, 169);
+}
+
+.cinema i
+{
+    font-size: 2em;
+    transform: translateY(-360px);
+    cursor: pointer;
+}

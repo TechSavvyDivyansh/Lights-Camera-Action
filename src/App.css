@@ -1,0 +1,15 @@
+.App
+{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.App.dark
+{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.5s;
+    cursor: default;
+}

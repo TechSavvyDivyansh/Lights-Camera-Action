@@ -1,0 +1,88 @@
+
+.nav
+{
+    padding: 25px 30px;
+}
+img
+{
+    width: 120px;
+}
+
+.nav-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu
+{
+    padding: 0 30px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-menu li
+{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.links hr
+{
+    border: 1px solid red;
+}
+
+.nav-menu li img
+{
+    width: 22px;
+}
+
+.toggle
+{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 25px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.m
+{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.s
+{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+    transform: translateX(27px);
+    transition: 0.5s;
+}
+
+.links
+{
+    text-decoration: none;
+}
+
+.links.light
+{
+    color: black;
+}
+
+.links.dark
+{
+    color: white;
+}

@@ -1,0 +1,95 @@
+.movieDisplay
+{
+    display: flex;
+    flex-direction: column;
+    padding:60px 120px;
+    gap: 100px;
+}
+
+.moviedisp-container-up
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moviedisp-container-up img
+{
+    height: 400px;
+    width: 350px;
+}
+
+.content
+{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.mov-name
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mov-desc
+{
+    width: 80%;
+    /* transform: translateX(15px); */
+    color: gray;
+}
+
+.mov-name h2
+{
+    font-size: 28px;
+}
+
+.content span
+{
+    color: gray;
+}
+
+.content button
+{
+    width: 200px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(240, 44, 44);
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.content button:hover
+{
+    background-color:rgb(234, 121, 121) ;
+}
+
+.content button:active
+{
+    background-color:rgb(240, 44, 44) ;
+}
+
+
+.moviedisp-container-down
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.moviedisp-container-down img
+{
+    width: 440px;
+    height: 350px;
+}
+.moviedisp-container-down video
+{
+    height: 450px;
+}

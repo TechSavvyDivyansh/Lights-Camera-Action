@@ -21,9 +21,9 @@ node_modules
 *.sln
 *.sw?
 
-src/Components/assets/**/*.png
-src/Components/assets/**/*.jpg
-src/Components/assets/**/*.jpeg
-src/Components/assets/**/*.JPG 
-src/Components/assets/**/*.mp4 
+# src/Components/assets/**/*.png
+# src/Components/assets/**/*.jpg
+# src/Components/assets/**/*.jpeg
+# src/Components/assets/**/*.JPG 
+# src/Components/assets/**/*.mp4 
 
